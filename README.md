@@ -13,5 +13,7 @@ script path is MediBookings/resources/asserts/
 
 
 receptionist.php file is for the connection
+
 login.php for login page form
+
 style obviously for the styling
