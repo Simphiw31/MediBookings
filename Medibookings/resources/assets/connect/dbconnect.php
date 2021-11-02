@@ -1,10 +1,10 @@
 
 <?php
-$con = mysqli_connect("localhost","root","","MedicalBokings");
-
-// Check connection
-if (mysqli_connect_errno())
+$con=mysqli_connect("localhost","Simphiwe","Simphiw321@") or die ("could not find database");
+mysqli_select_db($con,"MedicalBokings");
+if (!$con)
   {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  die('Could not connect: ' . mysqli_error);
   }
-  ?>
+
+
