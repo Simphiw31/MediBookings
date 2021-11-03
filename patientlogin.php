@@ -5,7 +5,7 @@ $passwordErr= "";
 $username = "";
 $password= "";
 
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["username"])) {
     $usernameErr = "Name is required";
   } else {
