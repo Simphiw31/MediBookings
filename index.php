@@ -1,6 +1,8 @@
 <?php
 {
-echo "Welcome to Login Form";
+
+    echo "Welcome to Login Form";
+
 }
 
 ?>
